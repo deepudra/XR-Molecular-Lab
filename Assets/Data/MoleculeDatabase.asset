@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b44ad1859c0657408552712a9b1d048, type: 3}
+  m_Name: MoleculeDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::MoleculeDatabase
+  molecules:
+  - moleculeName: Water
+    formula: H2O
+    bondType: Covalent
+    hydrogenCount: 2
+    oxygenCount: 1
+    carbonCount: 0
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Hydrogen Gas
+    formula: H2
+    bondType: Single Covalent
+    hydrogenCount: 2
+    oxygenCount: 0
+    carbonCount: 0
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Oxygen Gas
+    formula: O2
+    bondType: Double Covalent
+    hydrogenCount: 0
+    oxygenCount: 2
+    carbonCount: 0
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Nitrogen Gas
+    formula: N2
+    bondType: Triple Covalent
+    hydrogenCount: 0
+    oxygenCount: 0
+    carbonCount: 0
+    nitrogenCount: 2
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Ammonia
+    formula: NH3
+    bondType: Covalent
+    hydrogenCount: 3
+    oxygenCount: 0
+    carbonCount: 0
+    nitrogenCount: 1
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Carbon Dioxide
+    formula: CO2
+    bondType: Double Covalent
+    hydrogenCount: 0
+    oxygenCount: 2
+    carbonCount: 1
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Methane
+    formula: CH4
+    bondType: Covalent
+    hydrogenCount: 4
+    oxygenCount: 0
+    carbonCount: 1
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Hydrogen Cyanide
+    formula: HCN
+    bondType: Triple Covalent
+    hydrogenCount: 1
+    oxygenCount: 0
+    carbonCount: 1
+    nitrogenCount: 1
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Nitric Oxide
+    formula: NO
+    bondType: Covalent
+    hydrogenCount: 0
+    oxygenCount: 1
+    carbonCount: 0
+    nitrogenCount: 1
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Hydroxyl Radical
+    formula: OH
+    bondType: Covalent
+    hydrogenCount: 1
+    oxygenCount: 1
+    carbonCount: 0
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Carbon Monoxide
+    formula: CO
+    bondType: Triple Covalent
+    hydrogenCount: 0
+    oxygenCount: 1
+    carbonCount: 1
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Diazene
+    formula: N2H2
+    bondType: Double Covalent
+    hydrogenCount: 2
+    oxygenCount: 0
+    carbonCount: 0
+    nitrogenCount: 2
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Hydrazine
+    formula: N2H4
+    bondType: Covalent
+    hydrogenCount: 4
+    oxygenCount: 0
+    carbonCount: 0
+    nitrogenCount: 2
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Cyanogen
+    formula: C2N2
+    bondType: Triple Covalent
+    hydrogenCount: 0
+    oxygenCount: 0
+    carbonCount: 2
+    nitrogenCount: 2
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Formaldehyde
+    formula: CH2O
+    bondType: Double Covalent
+    hydrogenCount: 2
+    oxygenCount: 1
+    carbonCount: 1
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Methanol
+    formula: CH4O
+    bondType: Covalent
+    hydrogenCount: 4
+    oxygenCount: 1
+    carbonCount: 1
+    nitrogenCount: 0
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Urea
+    formula: CH4N2O
+    bondType: Covalent
+    hydrogenCount: 4
+    oxygenCount: 1
+    carbonCount: 1
+    nitrogenCount: 2
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
+  - moleculeName: Glycine
+    formula: C2H5NO2
+    bondType: Covalent
+    hydrogenCount: 5
+    oxygenCount: 2
+    carbonCount: 2
+    nitrogenCount: 1
+    moleculePrefab: {fileID: 0}
+    bondSound: {fileID: 0}
